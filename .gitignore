@@ -1,0 +1,16 @@
+# AWS credentials and secrets
+.aws/
+*.pem
+*.key
+.env
+.env.*
+
+# Terraform state and local files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Temporary files
+*.log
+*.tmp
